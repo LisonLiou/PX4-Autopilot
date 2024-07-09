@@ -1,5 +1,12 @@
 # PX4 Drone Autopilot
 
+#define SYS_BL_UPDATE 1
+### https://hamish-willee.gitbook.io/px4-user-guide/v/chinese-1/config/firmware
+1. 将上述版本1.13.3精简出小于1M大小的发布包
+2. 将发布包刷入设备，正常启动一次，突破1M限制
+3. 然后刷入正常v3版本的发布包(release v1.13.3)
+
+
 [![Releases](https://img.shields.io/github/release/PX4/PX4-Autopilot.svg)](https://github.com/PX4/PX4-Autopilot/releases) [![DOI](https://zenodo.org/badge/22634/PX4/PX4-Autopilot.svg)](https://zenodo.org/badge/latestdoi/22634/PX4/PX4-Autopilot)
 
 [![Nuttx Targets](https://github.com/PX4/PX4-Autopilot/workflows/Nuttx%20Targets/badge.svg)](https://github.com/PX4/PX4-Autopilot/actions?query=workflow%3A%22Nuttx+Targets%22?branch=master) [![SITL Tests](https://github.com/PX4/PX4-Autopilot/workflows/SITL%20Tests/badge.svg?branch=master)](https://github.com/PX4/PX4-Autopilot/actions?query=workflow%3A%22SITL+Tests%22)
